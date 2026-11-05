@@ -32,3 +32,11 @@ qiymat = [
     {"title": "Dune", "genre": "Fantastika", "price": 35000}
 ]
 search_by_genre(cinema=qiymat)
+
+
+# 3-misol
+def merge_unique_ids(a:list,b:list)->list:
+    natija=set(a+b)
+    print(natija)
+
+merge_unique_ids(a= ['U1001', 'U1002', 'U1003', 'U1004', 'U1001'] ,b= ['U1003', 'U1005', 'U1006', 'U1002', 'U1007'])
