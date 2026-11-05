@@ -14,3 +14,25 @@ def majority(lst:list)->int:
 
 
 majority(lst=list(map(int, input("Sonlarni kiriting: ").split())))
+
+
+# 2-misol
+def search_by_genre(cinema:list,genre:str)->list:
+    qidiruv=input(">>>")
+    for kino in cinema:
+        print(kino)
+
+
+
+
+
+
+
+
+qiymat = [
+    {"title": "Avatar", "genre": "Fantastika", "price": 40000},
+    {"title": "Sherlock", "genre": "Detektiv", "price": 30000},
+    {"title": "Oq yo‘l", "genre": "Drama", "price": 25000},
+    {"title": "Dune", "genre": "Fantastika", "price": 35000}
+]
+search_by_genre(cinema=qiymat)
